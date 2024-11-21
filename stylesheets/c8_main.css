@@ -73,10 +73,11 @@ header img {
     display: none;
     position: absolute;
     top: 100%;
+	width: 100%; 
 }
 #nav_menu ul ul li {
 	float: none;
-	width: 100%; 
+	
 }
 #nav_menu ul li:hover > ul {
 	display: block;
