@@ -59,6 +59,7 @@ header img {
 #nav_menu ul li a {
     display: block;
     text-align: center;
+	width:20%;
     padding: 1em 0;
     text-decoration: none;
     background-color: #800000;
