@@ -55,10 +55,10 @@ header img {
 }
 #nav_menu ul li {
 	float: left;
+	width: 20%;
 }
 #nav_menu ul li a {
     display: block;
-    width: 20%;
     text-align: center;
     padding: 1em 0;
     text-decoration: none;
@@ -160,8 +160,8 @@ aside img {
 	padding-bottom: 1em;
 }
 
-@media screen (viewport: 811){
-	aside h2 a {
+@media screen (viewport: 730){
+	aside h2 {
 		font-size: 85%; 
 	}
 	
