@@ -64,7 +64,6 @@ header img {
     background-color: #800000;
     color: white;
     font-weight: bold;
-	width: 20%;
 }
 #nav_menu a.current {
 	color: yellow;
@@ -100,7 +99,7 @@ section h1 {
 }
 section h2 {
 	color: #800000;
-	font-size: 110%;
+	font-size: 130%;
 	padding: .5em 0 .25em 0;
 }
 section p {
@@ -147,17 +146,32 @@ aside {
 }
 aside h2 {
 	color: #800000;
-	font-size: 110%;
+	font-size: 130%;
 	padding: .5em 0 .25em 0;
 }
 
 aside h3 {
-	font-size: 85%;
+	font-size: 105%;
 	padding-bottom: .25em;
 }
 aside img {
 	padding-bottom: 1em;
 }
+
+@media screen and (max-width : 600px){
+    aside h2 a {
+		font-size: 85%;
+	}
+	
+	section h1{
+		font-size: 125%
+	}
+	
+	section h2, aside h2 {
+		font-size: 110;
+	}
+}
+
 
 /* the styles for the footer */
 footer {
