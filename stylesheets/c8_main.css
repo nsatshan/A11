@@ -160,23 +160,6 @@ aside img {
 	padding-bottom: 1em;
 }
 
-@media screen (viewport: 730){
-	aside h2 {
-		font-size: 85%; 
-	}
-	
-	section h1 {
-		font-size: 125%;
-	}
-	
-	section h2 {
-		font-size:110%;
-	}
-	
-	aside h2 {
-		font-size:110%;
-	}
-}
 /* the styles for the footer */
 footer {
 	background-color: #931420;
@@ -187,4 +170,64 @@ footer p {
 	text-align: center;
 	color: white;
 	padding: 1em 0;
+}
+
+/* mobile */ 
+#mobile_menu{
+	display: none; 
+}
+
+@media only screen and ( max-width : 730px){
+	
+	section h1 {
+		font-size: 125%; 
+	}
+	
+	section h2, aside h2{
+		font-size: 110%;
+	}
+	
+	aside h3 a {
+		font-size : 85%; 
+	}
+}
+
+@media only screen and (max-width : 645px){
+	header img {
+		float: none; 
+	}
+	
+	header{
+		text-align: center;
+	}
+	section {
+		float: none; 
+		width: 95%;
+	}
+	aside{
+		float: none; 
+		width:95%; 
+		padding-right: 2.5%; 
+	}
+	article img{
+		max-width: 30%; 
+	}
+	aside{
+		column-count:2; 
+	}
+	#nav_menu{
+		display: non; 
+	}
+	#mobile_menu{
+		display: block;
+	}
+	.slicknav_menu{
+		background-color: #800000 !important; 
+	}
+}
+
+@media only screen and ( max-width: 415px){
+	body{
+		font-size: 90%; 
+	}
 }
