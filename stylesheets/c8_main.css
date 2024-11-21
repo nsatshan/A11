@@ -60,7 +60,7 @@ header img {
     display: block;
     width: 20%;
     text-align: center;
-    padding: 1em 0%;
+    padding: 1em 0;
     text-decoration: none;
     background-color: #800000;
     color: white;
@@ -136,8 +136,8 @@ article img {
 	float: right;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
-	max-width:40%;
-	min-width:150px;
+	max-width : 40%;
+	min-width: 150px; 
 }
 
 /* the styles for the aside */
@@ -160,6 +160,23 @@ aside img {
 	padding-bottom: 1em;
 }
 
+@media screen (viewport: 811){
+	aside h2 a {
+		font-size: 85%; 
+	}
+	
+	section h1 {
+		font-size: 125%;
+	}
+	
+	section h2 {
+		font-size:110%;
+	}
+	
+	aside h2 {
+		font-size:110%;
+	}
+}
 /* the styles for the footer */
 footer {
 	background-color: #931420;
